@@ -32,24 +32,27 @@ header .box {
 	display: flex;
 }
 
-.menu_list li {
+.menu_list .menu {
+	margin: 0 28px;
+}
+.icon_header .icon{
 	margin: 0 13px;
 }
 
-.icon_header li:last-of-type {
+.icon_header .icon:last-of-type {
 	margin: inherit;
 	margin-left: 13px;
 }
 
 i {
-	font-size: 16px;
+	font-size: 20px;
 	color: #333333;
 }
 
 header nav ul li a {
 	font-family: 'Lato', sans-serif;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
 	color: #333333;
@@ -319,7 +322,7 @@ header nav ul li a {
 .five_banner article p {
 	font-family: 'Lato', sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 30px;
 	color: #333333;
@@ -455,7 +458,7 @@ footer ul:last-of-type {
 /* section_footer------------------ */
 
 .footer {
-	padding: 30px 0 30px;
+	padding: 24px 0 24px;
 }
 
 .footer ul {
