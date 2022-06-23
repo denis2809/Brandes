@@ -35,7 +35,8 @@ header .box {
 .menu_list .menu {
 	margin: 0 28px;
 }
-.icon_header .icon{
+
+.icon_header .icon {
 	margin: 0 13px;
 }
 
@@ -189,27 +190,7 @@ header nav ul li a {
 	display: inline-block;
 }
 
-.brands:first-of-type::before {
-	content: "";
-	display: inline-block;
-	background-image: url(../images/arrow1.svg);
-	height: 18px;
-	width: 8px;
-	position: relative;
-	bottom: 73px;
-	right: 8px;
-}
 
-.brands:last-of-type::after {
-	content: "";
-	display: inline-block;
-	background-image: url(../images/arrow2svg.svg);
-	height: 18px;
-	width: 8px;
-	position: relative;
-	bottom: 73px;
-	left: 8px;
-}
 
 .menu_brands {
 	display: flex;
@@ -480,4 +461,32 @@ footer ul:last-of-type {
 	position: relative;
 	bottom: 4px;
 	right: 8px;
+}
+
+/*corusel----------------  */
+
+.owl-nav .owl-prev::before {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 600;
+	content: "\f053";
+	font-size: 18px;
+	color: black;
+	position: relative;
+	left: -18px;
+}
+
+.owl-nav .owl-next::after {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 600;
+	content: "\f054";
+	font-size: 18px;
+	color: black;
+}
+
+.owl-nav {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	bottom: 94px;
 }
